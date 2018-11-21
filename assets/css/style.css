@@ -1,0 +1,169 @@
+.logo {
+	width:140px;
+	margin-top: -7px;
+}
+
+.navbar-brand {
+    padding-top: 7px;
+    padding-left: 50px;
+}
+
+.header {
+	background-image: url("../images/header2.jpg");
+   	background-size: cover;
+   	background-position: center; 
+	width: 100%;
+	padding-bottom: 150px;
+	padding-top: 100px;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.div_nosotros {
+	background-image: url("../images/header_nosotros.jpg");
+}
+.navbar {
+	margin-bottom: 0px;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+h1 {
+	text-align: center;
+	color:white;
+    font-size: 40px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+h2 {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+p {
+	text-align: center;
+	color:white;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+}
+
+.descripcion {
+	text-align: center;
+	color:black;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.footer {
+	background-color: #f7f7f7;
+	padding-bottom: 150px;
+}
+
+.logo-footer {
+	width:90px;
+	text-align:center;
+	padding-top: 10px;
+}
+
+.titulos {
+	color:#252525;
+}
+
+.titulo_banner {
+	color:#252525;
+	text-align: left;
+}
+
+.parrafo_banner {
+	color:#252525;
+	text-align: left;
+	max-width: 500px;
+}
+
+.boton_banner {
+	text-align: left;
+}
+
+.form {
+
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.form_button {
+	display: block;
+	padding: 5px 20px;
+	background-color: #f9cd3d;
+	color: white;
+	border-radius: 2px;
+	margin-bottom: 50px;
+	border-color: #f9cd3d;
+}
+
+.padding_top {
+	padding-top: 30px;
+}
+
+.padding_top_full {
+	padding-top: 80px;
+}
+
+.img_nina {
+	width: 80%;
+	margin-top: 0;
+}
+
+.mision {
+	background-color: #f9cd3d;
+	height: 300px;
+}
+
+hr {
+	margin-bottom: 0 !important;
+}
+
+.icon_objetivos {
+	color: white;
+	text-align: center;
+}
+
+.white {
+	color: white;
+}
+
+.noticias {
+	background-color: #f9cd3d;
+	height: 200px;
+}
+
+.img_noticia {
+	width: 100%;
+}
+
+.noticias_home {
+	background-color: #f9cd3d;
+	height: 150px;
+}
+
+.centro {
+	text-align: center;
+	color: #222222;
+}
+
+.margin-bottom {
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
