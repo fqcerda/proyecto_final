@@ -45,15 +45,23 @@ h1 {
 	text-align: center;
 	color:white;
     font-size: 40px;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 800;
 }
 
 h2 {
 	text-align: center;
 	font-size: 25px;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 800;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: 300;
+	color:white;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -65,8 +73,19 @@ p {
 
 
 .cta {
-	background-color: tomato;
+	background-color: #efdc55;
 	color: white;
+}
+
+
+.white {
+	color: white;
+}
+
+.social_icon {
+	display: inline-block;
+	text-align: center;
+
 }
 
 
@@ -110,6 +129,8 @@ p {
     padding-bottom: 33.33%!important;
   }
 }
+
+
 
 
 

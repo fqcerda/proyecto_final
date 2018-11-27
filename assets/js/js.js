@@ -1,5 +1,4 @@
-<script>
-  $.ajax({
+  /*$.ajax({
     url: "https://js-instagram-proxy.herokuapp.com/botavian/media",
     dataType: "jsonp",
     data: {
@@ -7,7 +6,7 @@
   },
       success: function(json) {
       for (var i in json.posts) {
-      if(i >= 12){continue};
+      if(i >= 12){continue}
       url = json.posts[i].display_url;
       shortcode = json.posts[i].shortcode;
 
@@ -24,11 +23,8 @@
     }
   }
   });
-</script>
 
 
-
-<script>
   function parse_str(str) {
     return str.split('&').reduce(function(params, param) {
       var paramSplit = param.split('=').map(function(value) {
@@ -37,5 +33,35 @@
       params[paramSplit[0]] = paramSplit[1];
       return params;
     }, {});
-  }
-</script>
+  }*/
+
+(function($) {
+
+  $.ajax({
+    url: 'https://randomuser.me/api/',
+    dataType: 'json',
+  })
+  .done(function(data) {
+    console.log(data)
+    var info = data.results[0]
+
+    $('.usuario').html(info.name.first)
+    $('.usuario').html(info.picture.medium)
+  })
+  .fail(function(error) {
+    console.log(error)
+  })
+  
+
+
+  
+})(jQuery)
+
+
+
+
+
+
+
+
+
