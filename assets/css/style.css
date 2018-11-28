@@ -112,6 +112,8 @@ footer {
 	background-color: #ff6e5c;
 	color: white;
 	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
 
@@ -156,47 +158,42 @@ footer {
 	font-size: 18px;
 }
 
-/** Instagram Feed **/
-#instagram {
-  padding: 0;
-  line-height:0;
+.uppercase {
+	text-transform: uppercase;
 }
 
-#instagram a > div {
-  display: inline-block;
-  width: 16.666%;
-  height: 0;
-  padding-bottom: 16.666%!important;
-  background: #eee 50% 50% no-repeat;
-  background-size: cover;
+.jumbotron p {
+    text-align: left;
 }
 
-#instagram span {
-  display: block;
+.jumbotron h2 {
+    text-align: left;
 }
 
-#instagram span a.butn {
-  width: 210px;
-  left: 50%;
-  margin: -64px 0 0 -105px;
-  position: absolute;
-  text-align: center;
+.foto_usuario {
+	border-radius: 50%;
 }
 
-@media (max-width: 768px) {
-  #instagram a > div {
-    width: 25%;
-    padding-bottom: 25%!important;
-  }
+.user li<a{
+	text-decoration: none;
 }
 
-@media (max-width: 544px) {
-  #instagram a > div {
-    width: 33.33%;
-    padding-bottom: 33.33%!important;
-  }
+.embed-responsive .embed-responsive-item.map {
+	height: 250px;
 }
 
+.btn-primary {
+	float: right;
+	margin-top: -60px;
+}
+
+@media (max-width: 480px) {
+	.center {
+		margin: 0 auto;
+	}
+
+
+}
 
 
 

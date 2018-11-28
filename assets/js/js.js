@@ -35,27 +35,27 @@
     }, {});
   }*/
 
-(function($) {
+$.ajax({
+url: 'https://randomuser.me/api/?results=3',
+type: 'GET',
+dataType: 'json',
+})
+.done(function(data) {
+console.log(data.results);
 
-  $.ajax({
-    url: 'https://randomuser.me/api/',
-    dataType: 'json',
-  })
-  .done(function(data) {
-    console.log(data)
-    var info = data.results[0]
-
-    $('.usuario').html(info.name.first)
-    $('.usuario').html(info.picture.medium)
-  })
-  .fail(function(error) {
-    console.log(error)
-  })
-  
-
-
-  
-})(jQuery)
+$.each( data.results, function( key, value ) {
+$('.user').append(`<li class="col-md-4">
+<img src="${value.picture.large}" class="foto_usuario" alt="">
+<hr class="linea_titulo izq_align_hr">
+<h2 class="titulo_inicio">${value.name.first} ${value.name.last}</h2>
+<a class="user_email">${value.email}</a>
+<p class="user_phone"></p>
+</li>`)
+});
+})
+.fail(function() {
+console.log("error");
+})
 
 
 
