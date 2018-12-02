@@ -95,6 +95,14 @@ footer {
   text-transform: uppercase;
 }
 
+.botellas_name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+}
+
 .izq_align {
 	text-align: left;
 }
@@ -195,7 +203,6 @@ footer {
 
 
 .btn-primary {
-	margin-top: -60px;
 	color: #1b3452;
     background-color: #ffffff;
     border-color: #ffffff;
@@ -203,6 +210,15 @@ footer {
 
 .right {
 	float: right;
+}
+
+
+.cta_button {
+	margin-top: -60px;
+}
+
+ul {    
+	list-style: none;
 }
 
 @media (max-width: 480px) {
