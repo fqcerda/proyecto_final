@@ -59,6 +59,18 @@ console.log("error");
 
 
 
+  $(function() {
+    $('.lazy').lazy({
+      //delay: 500,//
+      //imageBase: 'images/',//
+      effect: "fadeIn",
+      effectTime: 500,
+      threshold: 0
+    });
+  });
+
+
+
 
 
 
