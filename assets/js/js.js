@@ -47,9 +47,8 @@ $.each( data.results, function( key, value ) {
 $('.user').append(`<li class="col-md-4">
 <img src="${value.picture.large}" class="foto_usuario" alt="">
 <hr class="linea_titulo izq_align_hr">
-<h2 class="titulo_inicio">${value.name.first} ${value.name.last}</h2>
+<h4 class="titulo_inicio">${value.name.first} ${value.name.last}</h4>
 <a class="user_email">${value.email}</a>
-<p class="user_phone"></p>
 </li>`)
 });
 })
