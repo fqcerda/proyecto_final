@@ -267,6 +267,32 @@ opacity: 1;
   text-transform:uppercase;
 }
 
+.carousel-caption {
+    top: 200px;
+}
+
+
+@media (max-width: 1024px) {
+
+.carousel-caption {
+    top: 80px;
+}
+
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+.carousel-caption {
+    top: 80px;
+}
+
+
+}
+
 
 
 @media (max-width: 480px) {
@@ -283,11 +309,10 @@ opacity: 1;
 	display: none !important;
 }
 
-
+.carousel-caption {
+    top: 30px;
 }
 
 
-
-
-
+}
 
