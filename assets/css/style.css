@@ -160,6 +160,7 @@ footer {
 	border-color: white;
  	border-width: 7px;
  	margin-top: 60px;
+ 	display: block
 }
 
 
@@ -230,6 +231,43 @@ ul {
 .mob {
 	display: none;
 }
+
+.text_fotos  img{
+opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.text_fotos:hover img {
+  opacity: 0.3;
+}
+
+.text_fotos:hover .middle {
+  opacity: 1;
+}
+
+.text_fotos_instagram {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 18px;
+  text-align:center;
+  text-transform:uppercase;
+}
+
+
 
 @media (max-width: 480px) {
 .center {
