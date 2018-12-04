@@ -233,11 +233,12 @@ ul {
 }
 
 .text_fotos  img{
-opacity: 1;
+  opacity: 1;
   display: block;
   width: 100%;
   height: auto;
   transition: .5s ease;
+  position: relative;
   backface-visibility: hidden;
 }
 
@@ -273,6 +274,10 @@ opacity: 1;
 
 .slide_text {
 	font-size: 25px;
+}
+
+.contacto_foto {
+	display: block;
 }
 
 @media (max-width: 1024px) {
